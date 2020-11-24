@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Provider }  from 'react-redux';
 import store from 'store';
 import App from './app/App';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
